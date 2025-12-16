@@ -1,5 +1,5 @@
-temperature = 70
-if has_temperature > 70
+temperature = 75
+if has_temperature > 70:
  print(f"It's warm outside!")
 
 
@@ -22,7 +22,7 @@ print(f"You won ${prize}!")
 
 # Snippet 5:
 def snippet_5():
-    age = input("Enter your age: ")
+    age = int(input("Enter your age: "))
     next_year = age + 1
     print(f"Next year you'll be {next_year}")
 
@@ -34,7 +34,7 @@ print(f"Each person gets {share} cookies")
 # Snippet 7:
 lives = 3
 lives = lives - 1
-if has_lives = 2
+if has_lives == 2:
 print("You have 2 lives left")
 
 # Snippet 8:
